@@ -1,3 +1,4 @@
+<style>
 nav ul {
     background: #ddd;
     font-size: 0;
@@ -58,3 +59,4 @@ nav li ul li {
 nav li ul a:hover {
     background: #bbb;
 }
+</style>
