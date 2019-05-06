@@ -19,8 +19,8 @@ nav a {
     background: #ddd;
     color: #444;
     display: block;
-    font: bold 16px/50px sans-serif;
-    padding: 0 25px;
+    font: bold 8px/24px sans-serif;
+    padding: 0 12px;
     text-align: center;
     text-decoration: none;
     -webkit-transition: all .25s ease;
@@ -39,7 +39,7 @@ nav li ul {
     left: 0;
     opacity: 0;
     position: absolute;
-    top: 35px;
+    top: 17px;
     visibility: hidden;
     z-index: 1;
     -webkit-transition: all .25s ease;
@@ -50,7 +50,7 @@ nav li ul {
 }
 nav li:hover ul {
     opacity: 1;
-    top: 50px;
+    top: 24px;
     visibility: visible;
 }
 nav li ul li {
