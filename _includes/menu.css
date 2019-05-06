@@ -1,62 +1,52 @@
 <style>
-nav ul {
-    background: #ddd;
-    font-size: 0;
-    list-style: none;
-    margin: 0;
+body {
     padding: 0;
-    text-align: center;
-    width: 100%;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
 }
-nav li {
-    display: inline-block;
-    margin: 0;
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
     padding: 0;
+    margin: 0;
     position: relative;
-    min-width: 33%;
+    min-width: 200px;
 }
-nav a {
-    background: #ddd;
-    color: #444;
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
     display: block;
-    font: bold 8px/24px sans-serif;
-    padding: 0 12px;
-    text-align: center;
+    padding: 15px;
     text-decoration: none;
-    -webkit-transition: all .25s ease;
-       -moz-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-         -o-transition: all .25s ease;
-            transition: all .25s ease;
 }
-nav .dropdown:after {
-    content: ' \25bc';
+#nav ul li:hover ul {
+    display: block;
 }
-nav li:hover a {
-    background: #ccc;
-}
-nav li ul {
-    left: 0;
-    opacity: 0;
+#nav ul ul {
+    display: none;
     position: absolute;
-    top: 17px;
-    visibility: hidden;
-    z-index: 1;
-    -webkit-transition: all .25s ease;
-       -moz-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-         -o-transition: all .25s ease;
-            transition: all .25s ease;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
 }
-nav li:hover ul {
-    opacity: 1;
-    top: 24px;
-    visibility: visible;
+#nav ul ul li {
+    display: block;
 }
-nav li ul li {
-    width: 100%;
-}
-nav li ul a:hover {
-    background: #bbb;
+#nav ul ul li a:hover {
+    color: #699;
 }
 </style>
