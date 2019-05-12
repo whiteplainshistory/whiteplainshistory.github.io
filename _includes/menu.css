@@ -6,7 +6,7 @@ body {
     font-size: 17px;
 }
 #nav {
-    background-color: #211;
+    background-color: #2B1B17;
 }
 #nav_wrapper {
     width: 960px;
@@ -24,10 +24,10 @@ body {
     display: inline-block;
 }
 #nav ul li:hover {
-    background-color: #333;
+    background-color: #333333;
 }
 #nav ul li a, visited {
-    color: #CCC;
+    color: #cccccc;
     display: block;
     padding: 5px;
     text-decoration: none;
@@ -38,8 +38,8 @@ body {
 #nav ul ul {
     display: none;
     position: absolute;
-    background-color: #333;
-    border: 5px solid #222;
+    background-color: #333333;
+    border: 5px solid #222222;
     border-top: 0;
     margin-left: -5px;
 }
@@ -47,6 +47,6 @@ body {
     display: block;
 }
 #nav ul ul li a:hover {
-    color: #699;
+    color: #669999;
 }
 </style>
