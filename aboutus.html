@@ -12,30 +12,22 @@ title: White Plains Historical Society
   <table style="width:90%" align="center" cellpadding="5">
   
   <tr>
-  <td valign="top" align="left">
-  <div>
-  a
-  </div>
-  <div>
-  b
-  </div>
-  <div>
-  c
-  </div>
-  </td>
-  </tr>
   
   <td valign="top" align="left">
-  <div>
-  x
-  </div>
-  <div>
-  y
-  </div>
-  <div>
-  z
-  </div>
+  {% include aboutus.address.html %}
+  {% include aboutus.phone.html %}
+  {% include aboutus.email.html %}
+  {% include aboutus.location.html %}
+  {% include aboutus.meetings.html %}
+  {% include aboutus.website.html %}
   </td>
+  
+  <td valign="top" align="left">
+  {% include aboutus.officers.html %}
+  {% include aboutus.trustees.html %}
+  {% include aboutus.trustees-past.html %}
+  </td>
+  
   </tr>
   
   </table>
