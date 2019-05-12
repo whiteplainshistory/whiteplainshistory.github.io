@@ -1,14 +1,18 @@
----
-title: White Plains Historical Society
----
 <html>
 <center>
 <head>
+{% include menu.css %}
 </head>
 <body>
   <h3>The White Plains Historical Society</h3>
-  <h2>Membership</h2>
-  Coming soon...
+  {% include menu.html %}
+  <h2>Calendar</h2>
+  <table style="width:90%" align="center" cellpadding="5">
+  {% include calendar.current.html %}
+  {% include calendar.liberty.html %}
+  {% include calendar.2019.html %}
+  {% include calendar.2018.html %}
+  </table>
 </body>  
 <footer>
   <br>
