@@ -6,7 +6,7 @@ body {
     font-size: 17px;
 }
 #nav {
-    background-color: #835C3B;
+    background-color: #2B1B17;
 }
 #nav_wrapper {
     width: 960px;
@@ -24,7 +24,7 @@ body {
     display: inline-block;
 }
 #nav ul li:hover {
-    background-color: #3B6182;
+    background-color: #333333;
 }
 #nav ul li a, visited {
     color: #cccccc;
@@ -38,7 +38,7 @@ body {
 #nav ul ul {
     display: none;
     position: absolute;
-    background-color: #3B6182;
+    background-color: #333333;
     border: 5px solid #222222;
     border-top: 0;
     margin-left: -5px;
